@@ -3,6 +3,7 @@ package com.example.parcial.modelo;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name="LibroJDBU")
 public class Libro {
 
     @Id

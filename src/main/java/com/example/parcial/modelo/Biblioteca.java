@@ -1,11 +1,9 @@
 package com.example.parcial.modelo;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name="BibliotecaJDBU")
 public class Biblioteca {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
